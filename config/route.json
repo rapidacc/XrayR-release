@@ -26,9 +26,10 @@
     {
       "type": "field",
       "outboundTag": "IPv6_out",
-      "domain": [
-        "geosite:geolocation-!cn"
-      ]
+      "ip": [
+      	"geoip:!cn",
+      	"geoip:cn"
+      	]
     },
     {
       "type": "field",
